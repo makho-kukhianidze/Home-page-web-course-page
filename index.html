@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="my project">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Makho kukhianidze">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>project 1</title>
+  <link rel = "icon" href ="assets/icons/m.png" type = "image/x-icon">
+</head>
+
+<body>
+  <header class="header">
+    <div class="top-bar">
+      <div class="tob_bar_adress">
+        <p style="    font-size: 13px;">
+          <img src="assets/images/icons/3.png" alt="facebook icon" class="icon_size_telephone">
+          +995 595 51 13 55 / +995 591 05 09 89
+        </p>
+      </div>
+      <div class="right_top" style="float:right;    margin: 8px 79px 7px 10px;">
+        <a href="#"><img src="assets/images/icons/1.jpg" alt="facebook icon" class="icon_size"></a>
+        <a href="#"><img src="assets/images/icons/2.png" alt="linkedin icon" class="icon_size"></a>
+      </div>
+    </div>
+    <div class="center-flex">
+      <div class="image_sds" style="float:left;">
+        <a href="#">
+          <img class="image_sdsa" alt="logo" src="assets/images/logo/max-logo.png"></a>
+      </div>
+      <nav style="margin-top: 56px;">
+
+        <div onclick="myFunction()" class="chat">
+          <a class="butt_hid"><img style="width: 30px;height: 30px;margin: 7px 12px 12px -30px;"
+              src="assets/icons/a.png" alt="icon"></a>
+        </div>
+        <ul id="myDIV" class="list_it">
+          <li class="dropdown"><a href="#">Home</a>
+          </li>
+          <li><a href="#">Course </a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img class="slider-img" src="assets/images/slider/1.jpg" alt="slider1">
+    </div>
+    <div class="mySlides fade">
+      <img class="slider-img" src="assets/images/slider/2.jpg" alt="slider2">
+    </div>
+    <div class="mySlides fade">
+      <img class="slider-img" src="assets/images/slider/3.jpg" alt="slider3">
+    </div>
+    <div class="mySlides fade">
+      <img class="slider-img" src="assets/images/slider/4.jpg" alt="slider4">
+    </div>
+    <div class="mySlides fade">
+      <img class="slider-img" src="assets/images/slider/5.jpg" alt="slider5">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+  <div class="main_section">
+    <div class="main_cont_as">
+      <div class="section_block">
+        <div class="section_inner">
+          <img src="assets/images/icons/8.png" alt="setting icon">
+          <h3 style="text-align: center;color:white;"><a style="color:white;text-decoration: none;" href="#">HTML
+              Tutorial</a></h3>
+          <p>HTML is the standard markup language for Web pages.
+            With HTML you can create your own Website.
+            HTML is easy to learn - You will enjoy it!
+          </p>
+        </div>
+      </div>
+      <div class="section_block">
+        <div class="section_inner">
+          <img src="assets/images/icons/6.png" alt="setting icon">
+          <h3 style="text-align: center;color:white;"><a style="color:white;text-decoration: none;" href="#">CSS
+              Tutorial</a></h3>
+          <p>CSS is the language we use to style an HTML document.
+            CSS describes how HTML elements should be displayed.
+            This tutorial will teach you CSS from basic to advanced.
+          </p>
+        </div>
+      </div>
+      <div class="section_block">
+        <div class="section_inner">
+          <img src="assets/images/icons/9.png" alt="setting icon">
+          <h3 style="text-align: center;color:white;"><a style="color:white;text-decoration: none;" href="#">JavaScript
+              Tutorial</a></h3>
+          <p>
+            JavaScript is the world's most popular programming language.
+            JavaScript is the programming language of the Web.
+            JavaScript is easy to learn.
+            This tutorial will teach you JavaScript from basic to advanced.
+          </p>
+        </div>
+      </div>
+      <div class="section_block">
+        <div class="section_inner">
+          <img src="assets/images/icons/7.png" alt="setting icon">
+          <h3 style="text-align: center;color:white;"><a style="color:white;text-decoration: none;" href="#">Bootstrap 5
+              Tutorial</a></h3>
+          <p>
+            Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first
+            websites.
+            Bootstrap is completely free to download and use!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="section_3">
+      <div style="padding: 45px 10px 10px 10px;">
+        <h2 style="font-size: 32px;">Joining Us on Facebook</h2>
+        <div>
+          <p>Our Facebook group for anyone over 18 years old</p>
+        </div>
+        <a style="color:white;text-decoration: none;" href="#">
+          <p class="button_a">
+            Join us</p>
+        </a>
+      </div>
+    </div>
+    <div class="main_section_b">
+      <div class="main_cont_as">
+        <div class="section_block_b">
+          <div class="section_inner_b">
+            <img class="images_d" src="assets/images/persons/1.png" alt="person">
+            <h3 style="text-align: center;color: rgb(85 88 247);">
+              George Lucas
+            </h3>
+            <p style="color: rgb(141, 141, 141);">Born: 12 august, 1981<br>
+              Company founder
+            </p>
+            <div class="button_pers_info">
+              <a href="#"><img style="width: 30px;height: 30px; border-radius: 30%;   " src="assets/images/icons/1.jpg"
+                  alt="facebook icon"></a>
+              <a href="#"><img style="width: 30px;height: 30px;  border-radius: 30%;   " src="assets/images/icons/2.png"
+                  alt="linkedin icon"></a>
+              <a href="#"><img style="width: 30px;height: 30px;  border-radius: 30%;   "
+                  src="assets/images/icons/10.png" alt="linkedin icon"></a>
+            </div>
+          </div>
+        </div>
+        <div class="section_block_b">
+          <div class="section_inner_b">
+            <img class="images_d" src="assets/images/persons/2.jpg" alt="person">
+            <h3 style="text-align: center;color: rgb(85 88 247);">
+              Anne Boleyn
+            </h3>
+            <p style="color: rgb(141, 141, 141);">Born: 12 august, 1987<br>
+              Office maneger
+            </p>
+            <div class="button_pers_info">
+              <a href="#"><img style="width: 30px;height: 30px; border-radius: 30%;   " src="assets/images/icons/1.jpg"
+                  alt="facebook icon"></a>
+              <a href="#"><img style="width: 30px;height: 30px;  border-radius: 30%;   " src="assets/images/icons/2.png"
+                  alt="linkedin icon"></a>
+              <a href="#"><img style="width: 30px;height: 30px;  border-radius: 30%;   "
+                  src="assets/images/icons/10.png" alt="linkedin icon"></a>
+            </div>
+          </div>
+        </div>
+        <div class="section_block_b">
+          <div class="section_inner_b">
+            <img class="images_d" src="assets/images/persons/3.jpg" alt="person">
+            <h3 style="text-align: center;color: rgb(85 88 247);">
+              James Mcavoy
+            </h3>
+            <p style="color: rgb(141, 141, 141);">Born: 12 august, 1987<br>
+              It specialist
+            </p>
+            <div class="button_pers_info">
+              <a href="#"><img style="width: 30px;height: 30px; border-radius: 30%;   " src="assets/images/icons/1.jpg"
+                  alt="facebook icon"></a>
+              <a href="#"><img style="width: 30px;height: 30px;  border-radius: 30%;   " src="assets/images/icons/2.png"
+                  alt="linkedin icon"></a>
+              <a href="#"><img style="width: 30px;height: 30px;  border-radius: 30%;   "
+                  src="assets/images/icons/10.png" alt="linkedin icon"></a>
+            </div>
+          </div>
+        </div>
+        <div class="section_block_b">
+          <div class="section_inner_b">
+            <img class="images_d" src="assets/images/persons/4.jpeg" alt="person">
+            <h3 style="text-align: center;color: rgb(85 88 247);">
+              Sarah Silverman
+            </h3>
+            <p style="color: rgb(141, 141, 141);">Born: 12 august, 1972<br>
+              Web Developer
+            </p>
+            <div class="button_pers_info">
+              <a href="#"><img style="width: 30px;height: 30px; border-radius: 30%;   " src="assets/images/icons/1.jpg"
+                  alt="facebook icon"></a>
+              <a href="#"><img style="width: 30px;height: 30px;  border-radius: 30%;   " src="assets/images/icons/2.png"
+                  alt="linkedin icon"></a>
+              <a href="#"><img style="width: 30px;height: 30px;  border-radius: 30%;   "
+                  src="assets/images/icons/10.png" alt="linkedin icon"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center;">
+        <h1 style="font-size:52px;">Bootstrap Pricing Table</h1>
+        <div class="main_cont_as">
+          <div class="section_block_d">
+            <div class="section_inner">
+              <h3 style="text-align: center;color: white;background-color: #485fdd;padding: 16px;margin: 0px;">
+                BASIC<br>
+                <span style="font-size: 16px;"> $ 99 .99 /MON</span>
+              </h3>
+              <ul class="list_d1">
+                <li><span>&#10003;</span> 2GB Bandwidth</li>
+                <li><span>&#10003;</span> 150GB Storage</li>
+                <li><span>&#10003;</span> 12 Accounts</li>
+                <li><span>&#10003;</span> 7 Host Domain</li>
+                <li style="border:none;"><span>&#10003;</span> 24/7 Support</li>
+              </ul>
+              <div style="width: 178px;background: black;text-align: center;border-radius: 10px;margin: auto;">
+                <a style="text-decoration: none;" href="#">
+                  <p
+                    style="background: rgb(2, 4, 8);font-weight: 900;border-radius: 6px;color: white;margin: auto;padding: 12px;">
+                    SIGN UP</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="section_block_d">
+            <div class="section_inner">
+              <h3 style="text-align: center;color: white;background-color: #485fdd;padding: 16px;margin: 0px;">
+                STANDARD
+                <br>
+                <span style="font-size: 16px;"> $ 199 .99 /MON</span>
+              </h3>
+              <ul class="list_d1">
+                <li><span>&#10003;</span> 2GB Bandwidth</li>
+                <li><span>&#10003;</span> 150GB Storage</li>
+                <li><span>&#10003;</span> 12 Accounts</li>
+                <li><span>&#10003;</span> 7 Host Domain</li>
+                <li style="border:none;"><span>&#10003;</span> 24/7 Support</li>
+              </ul>
+              <div style="width: 178px;background: black;text-align: center;border-radius: 10px;margin: auto;">
+                <a style="text-decoration: none;" href="#">
+                  <p
+                    style="background: rgb(2, 4, 8);font-weight: 900;border-radius: 6px;color: white;margin: auto;padding: 12px;">
+                    SIGN UP</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="section_block_d">
+            <div class="section_inner">
+              <h3 style="text-align: center;color: white;background-color: #485fdd;padding: 16px;margin: 0px;">
+                UNLIMITED<br>
+                <span style="font-size: 16px;"> 365 დღიანი წევრობა</span>
+              </h3>
+              <ul class="list_d1">
+                <li><span>&#10003;</span> 2GB Bandwidth</li>
+                <li><span>&#10003;</span> 150GB Storage</li>
+                <li><span>&#10003;</span> 12 Accounts</li>
+                <li><span>&#10003;</span> 7 Host Domain</li>
+                <li style="border:none;"><span>&#10003;</span> 24/7 Support</li>
+              </ul>
+              <div style="width: 178px;background: black;text-align: center;border-radius: 10px;margin: auto;">
+                <a style="text-decoration: none;" href="#">
+                  <p
+                    style="background: rgb(2, 4, 8);font-weight: 900;border-radius: 6px;color: white;margin: auto;padding: 12px;">
+                    SIGN UP</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section_11">
+          <div style="padding: 35px 0px 0px 0px;">
+            <h2 style="font-size: 32px;">We have 5 company<br>
+              Join us</h2>
+            <a style="color:white;text-decoration: none;" href="#">
+              <p class="donate_button">
+                Join</p>
+            </a>
+          </div>
+        </div>
+        <h1 style="font-size:43px;">We have four course</h1>
+        <div class="main_section_12_12">
+          <div class="main_cont_as">
+            <div class="section_block_12_12">
+              <div class="section_inner_12_12">
+                <a style="color:white;text-decoration: none;" href="#">
+                  <h3 style="text-align: left;color: black;padding: 17px;font-weight: 100;">
+                    HTML Course
+                  </h3><br>
+                </a>
+                <p style="color: red;text-align: left;margin: -48px 12px 12px 17px;">Couch: Sarah Silverman</p>
+                <p class="frame_info">
+                  HTML is the standard markup language for creating Web pages.
+                  With HTML you can create your own Website.
+                </p>
+              </div>
+            </div>
+            <div class="section_block_12_12">
+              <div class="section_inner_12_12">
+                <a style="color:white;text-decoration: none;" href="#">
+                  <h3 style="text-align: left;color: black;padding: 17px;font-weight: 100;">
+                    CSS Course
+                  </h3><br>
+                </a>
+                <p style="color: red;text-align: left;margin: -48px 12px 12px 17px;">Couch: Sarah Silverman</p>
+                <p class="frame_info">
+                  This CSS tutorial contains hundreds of CSS examples.
+                  With our online editor, you can edit the CSS, and click on a button to view the result.
+                </p>
+              </div>
+            </div>
+            <div class="section_block_12_12">
+              <div class="section_inner_12_12">
+                <a style="color:white;text-decoration: none;" href="#">
+                  <h3 style="text-align: left;color: black;padding: 17px;font-weight: 100;">
+                    JS Course
+                  </h3><br>
+                </a>
+                <p style="color: red;text-align: left;margin: -48px 12px 12px 17px;">Couch: Sarah Silverman</p>
+                <p class="frame_info">
+                  JavaScript is the world's most popular programming language.
+                  JavaScript is the programming language of the Web.
+                </p>
+              </div>
+            </div>
+            <div class="section_block_12_12">
+              <div class="section_inner_12_12">
+                <a style="color:white;text-decoration: none;" href="#">
+                  <h3 style="text-align: left;color: black;padding: 17px;font-weight: 100;">
+                    BOOSTRAP Course
+                  </h3><br>
+                </a>
+                <p style="color: red;text-align: left;margin: -48px 12px 12px 17px;">Couch: Sarah Silverman</p>
+                <p class="frame_info">
+                  Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive,
+                  mobile-first websites.Bootstrap is completely free to download and use!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="ce">
+      <span><a href="#"><img src="assets/icons/facebook.png" alt="facebook"></a></span>
+      <span><a href="#"><img src="assets/icons/instagram.png" alt="facebook"></a></span>
+      <span><a href="#"><img src="assets/icons/linkedin.png" alt="facebook"></a></span>
+      <span><a href="#"><img src="assets/icons/twitter.png" alt="facebook"></a></span>
+      <hr style="  border: 1px solid rgb(233, 233, 233);">
+      <p class="footer_am">Author: Makho kukhianidze</p>
+    </div>
+  </footer>
+  <script src="assets/js/first.js"></script>
+</body>
+
+</html>
